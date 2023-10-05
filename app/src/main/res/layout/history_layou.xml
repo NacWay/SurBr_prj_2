@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="110dp"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/history_layout">
+
+
+        <ImageView
+            android:id="@+id/iconRes"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@android:color/transparent"
+            android:scaleType="center"
+            android:layout_weight="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/win_ico" />
+
+    <ImageView
+        android:id="@+id/icon1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+      android:layout_marginEnd="-30dp"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ico_1" />
+
+    <ImageView
+        android:id="@+id/icon2"
+        android:layout_width="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ico_1" />
+
+    <ImageView
+        android:id="@+id/icon3"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginStart="-30dp"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ico_1" />
+
+    </LinearLayout>
